@@ -34,7 +34,7 @@ class Packer {
       itemsFit: item.quantity,
       suggestContainer: suggestedContainer
         ? suggestedContainer.type
-        : "Requires multiple containers",
+        : "Requires multiple containers or 40HC",
       stacking: suggestedContainer
         ? suggestedContainer.stackable
           ? "Allowed"
